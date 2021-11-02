@@ -1,26 +1,40 @@
-let nombrea = Number(prompt());
+/* let nombrea = Number(prompt());
 let nombreb = Number(prompt());
-
-alert(sommeNombreA(nombrea, nombreb));
-alert(sommeNombreS(nombrea, nombreb));
-alert(sommeNombreM(nombrea, nombreb));
-alert(sommeNombreD(nombrea, nombreb));
-
-
 
 function sommeNombreA(nombrea, nombreb){
     let sommeA = nombrea + nombreb;
-    return console.log("Le resultat de votre addition est : " + sommeA);
-}
+    return "Le resultat de votre addition est : " + sommeA;
+};
+
 function sommeNombreS(nombrea, nombreb){
     let sommeS = nombrea - nombreb;
-    return console.log("Le resultat de votre soustraction est : " + sommeS);
-}
+    return "Le resultat de votre soustraction est : " + sommeS;
+};
 function sommeNombreM(nombrea, nombreb){
     let sommeM = nombrea * nombreb;
-    return console.log("Le resultat de votre multiplication est : " + sommeM);
-}
+    return "Le resultat de votre multiplication est : " + sommeM;
+};
 function sommeNombreD(nombrea, nombreb){
     let sommeD = nombrea / nombreb;
-    return console.log("Le resultat de votre division est : " + sommeD);
-}
+    return "Le resultat de votre division est : " + sommeD;
+};
+/////////machine
+console.log(sommeNombreA(nombrea, nombreb));
+console.log(sommeNombreS(nombrea, nombreb));
+console.log(sommeNombreM(nombrea, nombreb));
+console.log(sommeNombreD(nombrea, nombreb)); */
+
+let nombrea = Number(prompt());
+let operator = prompt("Entrez votre opération");
+let nombreb = Number(prompt());
+let result = 0;
+
+function calculatrice(calc)
+{
+    if (operator === "+");
+    {
+        result = nombrea + nombreb
+        console.log(result);
+        
+    }
+};
