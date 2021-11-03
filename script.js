@@ -26,7 +26,8 @@ console.log(sommeNombreD(nombrea, nombreb)); */
 
 //Faire un random avec Math.floor et Math.random
 
-/* const Participant = ["Romain", "Antoine","Kevin","Tony", "Lucie", "Valentin"];
-const rmd = Participant [Math.floor(Math.random() * Participant.length)];
+const Participant = ["Romain", "Antoine","Kevin","Tony", "Lucie", "Valentin"];
 
-console.log(rmd); */
+const rmd = Participant[Math.floor(Math.random() * Participant.length)];
+
+console.log(rmd);
