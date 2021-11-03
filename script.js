@@ -24,31 +24,9 @@ console.log(sommeNombreS(nombrea, nombreb));
 console.log(sommeNombreM(nombrea, nombreb));
 console.log(sommeNombreD(nombrea, nombreb)); */
 
-let uno = prompt("entrez un nombre");
-let dos = prompt("entrez un nombre");
-let operator = prompt("entrez un opérateur");
+//Faire un random avec Math.floor et Math.random
 
+/* const Participant = ["Romain", "Antoine","Kevin","Tony", "Lucie", "Valentin"];
+const rmd = Participant [Math.floor(Math.random() * Participant.length)];
 
-function compute(operator,One,Two)
-{
-    One = parseInt(One); Two = parseInt(Two);
-    if (operator == "+") {
-        return One + Two;
-    }
-    else if (operator == "*")
-    {
-        return One * Two;
-    }
-     else if (operator == "-")
-    {
-        return One - Two;
-    }
-    else if  (operator == "/")
-    {
-        return One / Two;
-    }
-    else
-    {
-        return "syntax error";
-    }
-};
+console.log(rmd); */
