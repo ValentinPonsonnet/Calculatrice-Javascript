@@ -24,17 +24,31 @@ console.log(sommeNombreS(nombrea, nombreb));
 console.log(sommeNombreM(nombrea, nombreb));
 console.log(sommeNombreD(nombrea, nombreb)); */
 
-let nombrea = Number(prompt());
-let operator = prompt("Entrez votre opération");
-let nombreb = Number(prompt());
-let result = 0;
+let uno = prompt("entrez un nombre");
+let dos = prompt("entrez un nombre");
+let operator = prompt("entrez un opérateur");
 
-function calculatrice(calc)
+
+function compute(operator,One,Two)
 {
-    if (operator === "+");
+    One = parseInt(One); Two = parseInt(Two);
+    if (operator == "+") {
+        return One + Two;
+    }
+    else if (operator == "*")
     {
-        result = nombrea + nombreb
-        console.log(result);
-        
+        return One * Two;
+    }
+     else if (operator == "-")
+    {
+        return One - Two;
+    }
+    else if  (operator == "/")
+    {
+        return One / Two;
+    }
+    else
+    {
+        return "syntax error";
     }
 };
