@@ -87,3 +87,27 @@ function compare(res, ticket, nom){
 
 compare(ResultatLotto, Ticket, "Thomas")
 compare(ResultatLotto, Ticket, "Jean") */
+
+//Ticket de loto :
+
+/* let ticket = [];
+
+function generateTicket() {
+
+    for(i=0; i<10;)
+    {
+        let numbers = Math.ceil(Math.random() * 49);
+
+        if(ticket.includes(numbers) == true) {
+            ticket.pop(numbers)
+            i--;
+        }
+        else if(ticket.includes(numbers) == false){
+            ticket.push(numbers);
+            i++;
+        }
+    }
+};
+
+generateTicket();
+console.log(ticket); */
