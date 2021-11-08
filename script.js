@@ -111,3 +111,29 @@ function generateTicket() {
 
 generateTicket();
 console.log(ticket); */
+
+// Gérer plusieurs entrées
+
+/* function generateTicket(a,b) {
+    let ticket = [];
+    for(i=1; i<a;)
+    {
+        let numbers = Math.ceil(Math.random()*b);
+
+        if(ticket.includes(numbers) == true) {
+            ticket.pop(numbers)
+            i--;
+        }
+        else if(ticket.includes(numbers) == false){
+            ticket.push(numbers);
+            i++;
+        }
+
+    }
+    return ticket;
+};
+
+let testOne = generateTicket(10,50);
+let testTwo =generateTicket(50,1000);
+console.log(testOne);
+console.log(testTwo); */
