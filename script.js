@@ -53,11 +53,8 @@ function compare(res, ticket, nom){
                 match++;
                 
             }
-
         };
-
     };
-
     //console.log(match)
     // Créer les conditions
     if(match==1){
@@ -128,12 +125,8 @@ console.log(ticket); */
             ticket.push(numbers);
             i++;
         }
-
     }
     return ticket;
 };
-
-let testOne = generateTicket(10,50);
-let testTwo =generateTicket(50,1000);
-console.log(testOne);
-console.log(testTwo); */
+let testOne = generateTicket(10,100);
+console.log(testOne); */
