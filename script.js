@@ -164,11 +164,38 @@ calcul_ttc(panierHT, prix_total_ht, panierTTC, prix_total_ttc); */
 //Pour ecrire une variable de travail, il faut l'ECRIRE dans le corps de la boucle qui se trouve entre {} 
 
 
-function hello(a)
+/* function hello(a)
 {
-    console.log("Bonjour " + a);
+    return "Bonjour " + a + " comment vas-tu ?";
 };
 
-hello("Romain")
+/* console.log(hello("rommain"))
+hello("Julie")
 hello("Kévin")
-hello("Valentin")
+hello("Valentin") */ 
+
+function calc(a,o,b)
+{
+let total;
+    if (o==="+")
+    {
+        return a + b;    
+    }
+    else if (o==="-")
+    {
+        return a-b;
+    }
+    else if (o==="*")
+    {
+        return a*b;
+    }
+    else if (o==="/")
+    {
+        return a/b;
+    }
+    else 
+    {
+        alert ("Il y a une erreur dans votre expression ! Veuillez recommancer !")
+    }
+}
+console.log(calc(8,"+",7));
