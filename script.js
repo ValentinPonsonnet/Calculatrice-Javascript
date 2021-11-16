@@ -174,7 +174,7 @@ hello("Julie")
 hello("Kévin")
 hello("Valentin") */ 
 
-function calc(a,o,b)
+/* function calc(a,o,b)
 {
 let total;
     if (o==="+")
@@ -198,4 +198,4 @@ let total;
         alert ("Il y a une erreur dans votre expression ! Veuillez recommancer !")
     }
 }
-console.log(calc(8,"+",7));
+console.log(calc(8,"+",7)); */
