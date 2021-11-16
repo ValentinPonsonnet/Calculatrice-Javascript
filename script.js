@@ -130,3 +130,34 @@ console.log(ticket); */
 };
 let testOne = generateTicket(10,100);
 console.log(testOne); */
+// Date 
+
+
+let panierHT = [10, 21, 12, 80, 79, 44];
+let panierTTC = [];
+let prix_total_ht = 0;
+let prix_total_ttc = 0;
+let tva = 20;
+
+function calcul_ttc(ht, ptht, panttc, ptttc){
+
+    for(i=0;i<ht.length;i++)
+    {
+        let unique_ttc = (ht[i] * tva) / 100 + ht[i];
+        // console.log(panierHT[i])
+        ptht = ptht + ht[i]
+        // console.log(prix_total_ht);
+
+        ptttc = (ptht * tva) / 100 + ptht;
+        console.log("Le prix de ton panier total avec la tva est de : " + ptttc + "!");
+
+        panttc.push(unique_ttc);
+        console.log(panttc);
+
+    }
+
+}
+
+calcul_ttc(panierHT, prix_total_ht, panierTTC, prix_total_ttc);
+
+//Pour ecrire une variable de travail, il faut l'ECRIRE dans le corps de la boucle qui se trouve entre {} 
