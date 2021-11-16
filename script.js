@@ -133,7 +133,7 @@ console.log(testOne); */
 // Date 
 
 
-let panierHT = [10, 21, 12, 80, 79, 44];
+/* let panierHT = [10, 21, 12, 80, 79, 44];
 let panierTTC = [];
 let prix_total_ht = 0;
 let prix_total_ttc = 0;
@@ -158,6 +158,17 @@ function calcul_ttc(ht, ptht, panttc, ptttc){
 
 }
 
-calcul_ttc(panierHT, prix_total_ht, panierTTC, prix_total_ttc);
+calcul_ttc(panierHT, prix_total_ht, panierTTC, prix_total_ttc); */
+
 
 //Pour ecrire une variable de travail, il faut l'ECRIRE dans le corps de la boucle qui se trouve entre {} 
+
+
+function hello(a)
+{
+    console.log("Bonjour " + a);
+};
+
+hello("Romain")
+hello("Kévin")
+hello("Valentin")
