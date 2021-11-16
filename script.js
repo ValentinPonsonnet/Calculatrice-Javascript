@@ -172,7 +172,9 @@ calcul_ttc(panierHT, prix_total_ht, panierTTC, prix_total_ttc); */
 /* console.log(hello("rommain"))
 hello("Julie")
 hello("Kévin")
-hello("Valentin") */ 
+hello("Valentin") */
+
+// Fonction qui permet de calculer deux expressions avec un opérateur
 
 /* function calc(a,o,b)
 {
