@@ -201,3 +201,7 @@ let total;
     }
 }
 console.log(calc(8,"+",7)); */
+
+/* let licencie = ["Patrick","Eric","Julie","Vanessa"];
+
+console.log(licencie.includes(user)); */
